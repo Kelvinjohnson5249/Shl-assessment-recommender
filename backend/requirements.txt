@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+numpy
+chromadb
+sentence-transformers
+langchain-core
+scikit-learn
+
