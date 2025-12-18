@@ -1,0 +1,38 @@
+# Virtual environments
+env/
+envshl/
+venv/
+.venv/
+Scripts/
+Lib/
+pyvenv.cfg
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter notebooks
+*.ipynb
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.*
+
+# Outputs / predictions
+output/
+*.csv
+
+# Vector stores (ChromaDB)
+Vector_store/
+Vector_store_db/
+Recommender/Vector_store/
+Recommender/Vector_store_db/
+
+# Logs
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
