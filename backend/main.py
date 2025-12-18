@@ -26,3 +26,8 @@ def recommend(request: RecommendRequest):
         top_k=request.top_k
     )
     return results
+
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8000)

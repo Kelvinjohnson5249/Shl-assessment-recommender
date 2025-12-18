@@ -6,4 +6,5 @@ chromadb
 sentence-transformers
 langchain-core
 scikit-learn
-
+requests
+beautifulsoup4
